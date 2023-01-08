@@ -1,0 +1,127 @@
+.BoutonDemarrage {
+  background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%);
+  margin: 0px;
+  padding: 30px 65px;
+  text-align: center; color: lightblue; 
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  margin-left: 780px;
+  margin-right: 700px;
+  display: block;   
+  font-size:32px;
+  position: relative;
+  z-index: 2;
+}
+
+@-webkit-keyframes stripe-slide {
+    0% {
+      background-position: 0% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  @keyframes stripe-slide {
+    0% {
+      background-position: 0% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  
+  .btnCarte {
+    overflow: visible;
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    -moz-user-select: text;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 36px 22px;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: #103d82;
+    border: 2px solid #666;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    transition: all .5s ease;
+  }
+  .btnCarte.btn:-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  .btnCarte.btn--stripe {
+    overflow: hidden;
+    position: relative;
+  }
+  .btnCarte.btn--stripe:after {
+    content: '';
+    display: block;
+    height: 7px;
+    width: 100%;
+    background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-top: 1px solid #666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-size: 7px 7px;
+  }
+  .btnCarte.btn--stripe:hover {
+    background-color: #103D82;
+    color: white;
+    border-color: white;
+  }
+  .btnCarte.btn--stripe:hover:after {
+    background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
+    border-top: 1px solid #000;
+    -webkit-animation: stripe-slide 12s infinite linear forwards;
+            animation: stripe-slide 12s infinite linear forwards;
+  }
+  .btnCarte.btn--large {
+    width: 50%;
+  }
+  .btnCarte.btn--radius {
+    border-radius: 36px;
+  }
+  
+
+ #bandeBouttonCarte{
+  background-color : #103d82;
+  height : 6rem; 
+  text-align: center;
+  border-top : 1rem solid #103d82;
+  border-bottom : 1rem solid #103d82;
+} 
+
+#bandeBouttonCarte a {
+  display: block;
+  margin : 0 auto;
+  
+}
+
+.btnCarte {
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 480px) {
+  .btnCarte {
+    font-size: 0.5em;
+    height: auto;
+    text-align: center;
+  }
+
+}

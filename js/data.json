@@ -1,0 +1,75 @@
+{
+    
+    "carousel": {
+        "images": [
+            "./Ressources/img/carousel/1 Harissa.jpg",
+            "./Ressources/img/carousel/2 labyrinthe.jpg",
+            "./Ressources/img/carousel/3 Rubik's Cube.jpg",
+            "./Ressources/img/carousel/4 Badminton.jpg",
+            "./Ressources/img/carousel/5 Monorpale.jpg",
+            "./Ressources/img/carousel/6 Wii.jpg",
+            "./Ressources/img/carousel/7 Portugal.jpg"
+        ],
+
+        "titres" : [
+            "Si j'étais une sauce, je serais l'harissa.",
+            "Si j'étais une architecture, je serais un labyrinthe",
+            "Si j'étais un objet, je serais un Rubik's Cube",
+            "Si j'étais un sport, je serais le Badminton",
+            "Si j'étais un Pokémon, je serais Monorpale",
+            "Si j'étais une console de jeu, je serais la Wii",
+            "Si j'étais un pays, je serais le Portugal"
+        ],
+
+        "textes" : [
+            "L'harissa est une sauce faite à base de purée de piment rouge. J'ai découvert cette sauce chez mes grands-parents quand j'avais environ 10 ans. Malgré que l'harissa soit très peu apprécié, cette saveur m'a et me marquera toujours car j'ai été surpris par son goût très piquant. Il est si fort qu'il me rend enthousiaste et agité.Grâce à l'harissa, je peux être capable de manger tout type d'aliment.",
+            "J'ai découvert l'existence et le but d'un labyrinthe dans le conte de Thésée et le Minotaure. Lors de sa description, l'échec est devenue une des choses que je craigne le plus car j'ai appris qu'un labyrinthe comporte de nombreux chemins différents. J'ai senti à quel point il est très difficile de sortir d'un labyrinthe et de faire quoi que ce soit si on se perd. Cette crainte pour l'échec m'a révélée mon ambition et m'a poussé à être plus tenace pour limiter l'échec au maximum.",
+            "Quand j'étais en 5e, en cours de récré, un ami m'a montré un Rubik's Cube et m'a fait une démonstration de sa résolution. J'ai fortement apprécié cet objet, au point de m'en acheter un. J'étais curieux de connaître la méthode nécessaire pour résoudre un Rubik's Cube. C'est un objet qui demande un raisonnement logique et stratégique qui stimule mon cerveau.",
+            "Quand j'étais en CM2, une connaissance qui faisait déja du Badminton depuis quelque année m'avait invité à participer à une séance avec son club pour découvrir le Badminton. J'ai aimé le travail d'équipe dans ce sport, lors des matchs en duo. Le badminton est aussi très dynamique, ce qui m'a motivé à dépasser mes limites.",
+            "Monorpale est un Pokémon apparu en 2013. C'est un Pokémon très discret, qui ne se montre pas aux premier abords. Méfiant,il a besoin d'analyser son entourage car il ne le connait pas. Avec le temps, il peut gagner un peu plus confiance en lui et sortir de son fourreau pour se montrer. Mais s'il sent que sa confiance se perd, il n'hésitera pas à se renfermer dedans.",
+            "La wii est une console qui a été conçue en 2006 par l'entreprise japonaise Nintendo. Cette console m'a fortement marqué parcequ'elle avait des jeux-vidéos extraordinaires qui m'ont fait réellement aimer les vieilles histoires et les histoires fantastiques. Les jeux de cette console m'ont aussi aidé à développer mon imagination.",
+            "Je suis toujours allé au Portugal chaque année durant les vacances d'été. C'est un pays naturel, un peu ancien où la technologie n'est pas très développée. C'est ce côté-là qui m'a particulièrement touché et c'est toujours une bonne expérience pour moi de réadopter un mode de vie campagnard par rapport à la vie parisienne. Pour moi, le monde rural est plus calme, paisible et garde ses distances avec la population."
+        ]
+    },
+ 
+    
+    "formulaire" : {
+        
+        "titre_texte" : [ 
+            "Suggestion d'analogies",
+            "Analogies",
+            "Valeur de l'analogie",
+            "Votre adresse email",
+            "Envoyer le message"
+        ]
+    },
+    
+
+
+    "footer": {
+        "TexteFooter" : [
+            "Voir aussi",
+            "Fait par :",
+            "Joaquim-Reino Alexy",
+            "Mes informations principales",
+            "Numéro de téléphone : 07 83 19 71 45",
+            "Adresse e-mail : alexy.joaquim@gmail.com",
+            "Adresse : 104 Rue Nationale, Olympiades",
+            "Mes réseaux sociaux",
+            "Discord : ArKaS#6449",
+            "Snapchat : alexyjoaquimrei",
+            "Instagram : alexyjoaquimreino"
+        ],
+
+        "ImageFooter" : [
+            "./Ressources/img/content/LogoUniversite.png",
+            "./Ressources/img/content/googlemapIUT.jpg"
+        ],
+
+        "LienGoogleMap": "https://www.google.fr/maps/place/IUT+Universit%C3%A9+Gustave-Eiffel/@48.836961,2.5839412,654m/data=!3m1!1e3!4m5!3m4!1s0x47e60e33dd9a3fdd:0x7e5ced48ab7fc8df!8m2!3d48.8372175!4d2.58527?hl=fr",
+    
+        "image_accueil" : "./Ressources/img/content/ImageAccueil.jpg"
+    }
+}
+
+

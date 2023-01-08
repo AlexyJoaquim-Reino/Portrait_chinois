@@ -1,0 +1,503 @@
+body{
+    background-color: rgba(255, 255, 255, 0.425);
+    
+}
+
+img {
+
+    width: 100%;
+    /* box-shadow: -2px 4px 42px -6px rgb(0 0 0 / 53%); */
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+
+}
+
+
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 500px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 467px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+  }
+  
+  button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.carousel-inner h5 {
+    font-size: 2.5em;
+    border:black, 5px;  
+    border: solid #103d82;
+    background-color:rgba(255, 255, 255, 0.50);
+   
+} 
+
+
+
+.carousel-inner p {
+    font-size: 19px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border: solid #103d82;
+
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+}
+
+.content *{
+    z-index: 1;
+}
+
+.content {
+	float: left;
+}
+
+.content_main{
+	float:right;
+}
+
+.contenu-gauche{
+    padding:0px;
+}
+
+a {
+    color : #103d82;
+}
+
+.intercom {
+    background-color: #103d82; /*couleur bleue de la banderole tout en haut*/
+    padding: 0 50px; /*créer un espace entre le logo et le début de la banderole bleue*/
+}
+
+html {
+    height: 100%;
+}
+
+
+body {
+    /*width : 85%; */ /*créer les deux bandes blanches verticales de chaque côté de la page*/
+    box-shadow: -2px 4px 42px -6px rgba(0, 0, 0, 0.53); /*créer des ombres autour du body*/
+    position: relative; /**/
+
+    margin-right: auto; /*servent à placer le body au milieu de la page*/
+    margin-left: auto; /*voir commentaire du dessus*/
+    margin-bottom: 0;
+}
+
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    /*width: 85%;*/
+    display: none;
+}
+
+.logo {
+    width:200px; 
+    font-size: 400px; 
+    margin: 45px;
+    
+}
+
+
+
+header.banderole {
+    margin-top: -10px; /*supprime l'espace qui existait entre l'image et le body.*/
+}
+
+.googlemap {
+    animation-name : ReverseBandesCouleur; /*remets des barres blanches horizontales autour de la maps du footer*/
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards; /*fait en sorte que l'animation se prolonge (sans loop)*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+.show{
+    display:inline-block;
+}
+
+.googlemap:hover {
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards; /*fait en sorte que l'animation se prolonge (sans loop) tant que le hover est actif*/
+    animation-name : BandesCouleur; /*mets des barres bleues horizontales autour de la maps du footer*/
+}
+
+
+@keyframes BandesCouleur { /*mets des barres bleues horizontales autour de la maps du footer*/
+    from {background-color : white;}
+    to {background-color : #103d82;}
+} 
+
+
+/*remets des barres blanches horizontales autour de la maps du footer*/
+@keyframes ReverseBandesCouleur { 
+    from {background-color : #103d82;}
+    to {background-color : white;}
+} 
+
+@media screen and (min-width:1816px) {
+    .news-img-wrap img{
+        width:900px;
+        height:540px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content_main {
+    padding-left: 45px;
+    padding-right:30px;
+    padding-top: 35px;
+}
+
+
+
+
+
+
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    animation-name: lightOpacityIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    animation-name : lightOpacityOut;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lightOpacityIn {
+    from {background-color: rgba(255, 255, 255, 0);}
+    to {background-color: rgba(255, 255, 255, 0.50);}
+}
+
+
+/* CODE CSS DE L'ACCES RAPIDE */
+
+/*DEBUT ACCES RAPIDE */
+.card-body{
+	overflow:hidden;
+	padding-bottom:0rem;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+
+.icons > .column {
+    max-width: 30%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+
+
+div {
+    display: block;
+}
+
+
+
+
+
+/*Effet sur les images */ 
+@media screen and (max-width: 1800px) {
+.col-md-4 {
+    flex: 0 0 25%;
+    max-width: inherit;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width:775px) {
+    .acces-rapide {
+        flex: 0 0 25%;
+        width: 700px;
+    }
+    .acces-rapide>*{
+        width:700px;
+    }
+    
+}
+
+@media screen and (min-width:775px){
+    .py-4>*{
+        border-left: 1px solid #fff;
+    }
+    .premier{
+        border-left: none;
+    }
+    .acces-rapide .column{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .acce-rapide {
+        width: inherit;
+    }
+    #content_main {
+        padding-left : 30px;
+        padding-right: 30px;
+    }
+
+    .py-4 {
+        display: flex;
+        flex-direction: column;
+        padding : 0px!important;
+    }
+
+    .py-4>*{
+        border: 1px solid #fff;
+        padding-top: 10px;
+    }
+}
+
+.column div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.column a:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*FIN ACCES RAPIDE*/
+
+
+
+
+/*DEBUT CHATEAU*/
+
+div.csc-textpic .csc-textpic-imagewrap img {
+    border: none;
+    display: block;
+	
+}
+
+.csc-textpic-center-inner{
+	width:100%;
+	height:100%;
+}
+
+.card-body {
+    overflow: hidden;
+    padding-bottom: 0rem;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+/*FIN CHATEAU*/
+/* FIN DU CODE CSS DE L'ACCES RAPIDE */
+
+@keyframes lightOpacityOut {
+    from {background-color: rgba(255, 255, 255, 0.50);}
+    to {background-color: rgba(255, 255, 255, 0);}
+}
+
+
+
+
+.navbar.navbar-7 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00');
+}
+
+
+
+
+.container-fluid {
+    padding-right : 0px;
+    padding-left: 0px;
+}
+
+
+
+h2>a {
+    text-decoration: none;
+    color: #103d82;
+}
+
+h2>a:hover {
+    text-decoration:none;
+
+}
+
+
+.footer{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.py-4 *{
+    list-style:none;
+    background-color :#103d82;
+    text-decoration:none;
+    text-align :center;
+
+}
+
+.py-4{
+    padding-top: 30px;
+    margin:0px;
+    background-color: #103d82;
+
+}
+
+.py-4 ul a{
+    line-height:50px;
+    
+}
+
+.py-4 ul a:hover {
+    color:white;
+}
+
+
+
+.bodytext {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.acces-rapide .bodytext {
+    font-size: 18px;
+}
+
+.my-1{
+    font-size:30px;
+}
+
+.acces-rapide .my-1{
+    font-size:23px;
+}
+
+
+.premier{
+	list-style: none;
+}
+
+.TitreDuFormulaire {
+    text-align:center;
+    padding: 10px;
+    color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    font-weight: bold;
+}
+

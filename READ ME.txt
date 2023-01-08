@@ -1,0 +1,12 @@
+Serveur Wamp : 1) Aller sur https://www.wampserver.com/
+	       2) Cliquer sur Télécharger (64 bits ou 32 bits)
+	       3) Une fenêtre s'ouvre, cliquer sur "passer au téléchargement direct."
+	       4) Après Téléchargement, faire un clic gauche sur wampserveur en bas de la
+		page pour l'ouvrir.
+	       5) Mettre le serveur dans C:
+	       6) se diriger dans C:/wamp64/www
+	       7) supprimer tous les documents contenu dans www
+	       8) Ajouter le site dans C:/wamp64/www
+	       9) sur internet, taper la commande localhost (le serveur doit être ouvert 			(voir logo W en vert dans la barre des tâches, à côté de la batterie)
+	       10) Ouvrez le site
+

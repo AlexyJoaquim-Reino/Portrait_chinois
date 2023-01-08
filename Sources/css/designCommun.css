@@ -1,0 +1,43 @@
+
+
+
+/* La partie de ce code a été quasi intégralement repris de https://cssfx.dev/ avant d'être customisée */
+
+
+
+/*restreint la largeur des div pour créer les bandes blanches*/
+.SoumisBandesBlanches {
+    width: 85%;
+}
+
+
+@media screen and (min-width: 1080px){
+    body {
+        box-shadow: -2px 4px 42px -6px rgba(0, 0, 0, 0.53); /*créer des ombres autour du body*/
+    }
+}
+
+
+/* CSS pour écran de largeur moyenne */
+
+@media screen and (max-width: 1080px){
+    .SoumisBandesBlanches { 
+        width: 100%; /*supprime les bandes blanches*/
+
+    }
+    
+
+
+}
+
+
+
+@keyframes opacity { /*mets des barres bleues horizontales autour de la maps du footer*/
+    from {opacity: 0; }
+    to {opacity:1;}
+} 
+
+@keyframes opacityReverse { /*mets des barres bleues horizontales autour de la maps du footer*/
+    from {opacity: 1;}
+    to {opacity:0;}
+} 
